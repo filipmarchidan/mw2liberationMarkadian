@@ -1,0 +1,1 @@
+Put your favorite DLL files in this folder to load with VAC Chaos' ShieldLoader feature.

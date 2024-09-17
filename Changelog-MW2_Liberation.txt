@@ -1,0 +1,158 @@
+Modern Warfare 2 Liberation - The Changelog (formerly VAC Chaos)
+by AgentGOD
+----------------------------
+Home Page: http://www.ultimate-filez.com
+Donation : http://www.ultimate-filez.com/?page=donate
+----------------------------
+
+Modern Warfare 2 Liberation
+-----------------------------
+Version 1.00
+ - First version
+ - Integrated, easy-to-use mod loader
+ - Fixed a rare bug that sometimes caused the application to crash after attempting to quit
+ - New, never-before-seen icon and banner
+ - A 'fix' for Good Ol' Days on certain maps is included as 'FixNoPatches' mod
+ - Added a refresh button for the mod loading feature for the convenience of adding mods on the fly
+ - MW2 Realism Mod v2.0 is now included
+ - Added in-game mod switcher
+ - Added server restart hotkey
+ - Added mod randomization (randomly selects a mod for next game to play)
+ - Donors and premium members can now disable the nag messages
+   (see MW2_Liberation.ini for details)
+ - Fixed a bug that caused the program to fail if a non-donor was detected
+ - Modified fundamental basecode and circumvention method
+ - Added a feature to reset your profile to blank level 70 prestige 10
+ - Added more future-proofing protection against VAC
+ - Fixed a compatibility issue with Windows XP
+ - Improved compatibility with slower machines
+ - Various GUI tweaks
+ - Optimized for faster loading
+ - New features exlusive to donors/premium members: fully dedicated mode, kill host migration
+ - Added auto-checking of kill host migration when 'fully dedicated mode' is enabled
+ - Fixed mod switcher not seeing all of the mods in the folder
+ - Removed the 'None' (no mods) state from the mod randomizer by community request
+ - Fixed a bug with 'kill host migration' that caused the 'kick/tempban' functions to not work
+ - Eliminated some annoying error messages in the console
+ - Added automatic game latency enhancer (greatly lowers pings)
+ - Fixed a minor bug that caused certain inequities
+ - Added a name spoofing feature to protect you, the host, from psychological harm (see MW2_Liberation.ini for details)
+
+VAC Chaos
+-----------------------------
+Version 2.15 (Last version)
+ - Detection prevention algorithm in place
+ - Added 'infinite ammo' feature to replace 'player_sustainAmmo'
+ - Optimized code to allow faster launching
+ - Improved compatibility with future Steam clients
+ - Fixed a minor bug that caused harmless .NET Framework error messages sometimes after exiting the game
+
+Version 2.14
+ - Fixed a bug that caused force-80-FOV to not work when the developer console is not present
+ - Further enhances detection evasion algorithm (more 'future-proof')
+ - Fixed an issue where the first launch of the game on Windows 7 caused 'Unable to connect' messages
+
+Version 2.12
+ - Improved detection evasion algorithm for Windows 7
+
+Version 2.11
+ - Updated for patch v1.2.208
+ - Unlocks the default 91 fps cap automatically
+ - Always shows ping numbers of players
+ - Allows enforcing 80 degree FOV for yourself
+
+Version 2.10
+ - Disable game content patches is now more appropriately called 'Good Ol' Days'
+ - Added ability to turn on/off the short intermission time tweak
+ - Various GUI tweaks
+ - Completely revamped GUI
+ - Adds the highly-anticipated dedicated server feature
+	- Use the lobby id to allow people to connect to your server
+	- Allows you to copy a link directly or the ID
+	- Safer than giving out your IP address to strangers
+	- Lets people who do not have/or want to use VAC Chaos to join
+	- Lets people choose what servers to join
+	- Lets people host on connections greatly superior to the average home internet
+	- Lets you choose between hosting private dedicated matches that only allow joins via ID
+	  and matches that also allow IWNet matchmaking players to join (public ranked matches)
+	- Ability to completely avoid unwanted 'hacked' matches
+	- Lets users run/play on servers with settings customized to their heart's content
+ - Added an up-time counter to see how long your dedicated server has been up and running
+
+Version 2.05
+ - New feature: Disable game content patches
+   lets you play the game without the latest content patch (akimbo 1887s are OP'd again,
+   care package knifing is back!, etc)
+   [Note: Afghan, Rust, and Derail may have problems working if you enable this feature.
+   However, you can extract the _utility.gsc file from the latest patch_mp.ff
+   with a tool like ffViewer and create a simple mod to fix this issue with ModLoader]
+ - Intermission time is now cut down to 5 seconds when you use the Host Tool
+ - New administrative privilege check for more user-friendliness
+ - You will now automatically stay as host at the end of the game without needing to hit F4
+
+Version 2.04
+ - Now restores Steam client code upon exiting VAC Chaos to prevent detection
+   from user error
+ - Bypass VAC-ban is now checked by default: this workaround is now required
+   in conjunction with the Host Tool due to recent changes in the Steam auth server
+   (In other words, simply host a game with VAC Chaos and play! No problem)
+
+Version 2.03
+ - Updated for game patch v1.1.195
+
+
+Version 2.02
+ - Updated for compatibility with 2010 Steam client update & beyond
+
+Version 2.01
+ - Disables all possible detection methods
+ - Added custom force-host tool
+	- Simple, easy to use, does not require developer console
+	- Simply go to "Find Game", choose your favorite playlist, hit F4 and customize!
+	- Hit F5 to start the game when you're ready.
+	- There has NEVER been a tool easier to use than this one for hosting ranked public matches!
+	- Formerly private tool, has been simplified for public use!
+
+Version 2.00
+ - Added team-kill exploit tool (F3)
+	- Allows you to kill "teammates" in ANY public game
+	- Brings "spec-nading" back to Modern Warfare 2
+ - Added CEG protection remover
+	- Prevents certain 3rd party plugins from inducing VAC reloading
+	- Stops game from crashing due to sensitive area patching
+	- Further protects you from VAC
+ - Added ShieldLoader
+	- Load all your favorite 3rd party DLL(s) with one click of a button
+	- Eliminates the need/risk to use a 3rd party program like WinJect
+	- Simply drop all of your 3rd party DLL(s) into the "ShieldLoader" folder
+	- Randomizes all DLL names before they are loaded
+ - Added VAC-ban bypass for private matches
+	- Allows you to put your VAC-banned Modern Warfare 2 accounts to use
+	- Play on private matches with friends and the community even with a VAC ban
+
+Version 1.03
+ - Optimized integrity check to work better on slower PCs (opens program much faster)
+ - Decreased in-game message prompts further
+ - Added display FPS and current host toggle (F1)
+
+Version 1.02
+ - Various GUI tweaks for more user-friendliness
+ - Decreased in-game message prompts
+ - Added feature to enable custom script file execution (.cfg)
+ - Added startup script execution feature (autoexec.cfg)
+ - Added detection for incompatible game patches
+ - Added integrity check to prevent virus infections
+
+Version 1.01
+ - Started changelog
+ - Fixed the .tmp file cleanup proceedure for the executable
+ - Fixed high CPU usage on some systems (particularly dual-core systems)
+ - Added more user-friendly troubleshooting messages
+ - Improved detection evasion algorithm
+ - Greatly improved emergency VAC protection (kills the game if VAC detected while game is running)
+   [With warning message upon detection]
+ - Enforced 4096-bit encryption to further prevent detection
+ - Significantly reduced anti-virus false-positives
+
+----------------------------
+Copyright © 2010 Ultimate-Filez
